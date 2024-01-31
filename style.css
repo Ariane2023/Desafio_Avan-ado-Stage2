@@ -15,8 +15,9 @@ body {
     margin: 0 auto 0;
     padding-top: 71px;
     padding-bottom: 23;
-    align-items: center;    
-
+    align-items: center; 
+    
+   
 }
 
 nav {
@@ -39,11 +40,12 @@ main {
     
     color: #C2C2C2;
     
-    padding-bottom: 157px;
+    padding-bottom: 100px;
 }   
 
 ul, a {
     list-style: none;
+    text-decoration: none;
     color: #FFF;
     display: flex;
     margin: 0;
@@ -58,9 +60,10 @@ ul, a {
  
 }
 
-h1, footer {
+h1 {
     color: #FFF;
     font-family: 'Mulish', sans-serif;
+
 }
 
 
@@ -103,6 +106,7 @@ p {
 }
 
 footer {
+    display: flex;
     color: #FFF;
    
     font-family: "JetBrains Mono";
@@ -111,18 +115,12 @@ footer {
     font-weight: 500;
     line-height: 28px; 
     
-    text-align: center;  
-
-
+    place-content: center;  
 }
 
-#cadeado {
+#cadeado{
     position: fixed;
-    width: 638px;
-    height: 62px;
-    flex-shrink: 0;
-    left: 2px;
-    
-    margin: 20 638 1209 20;
+    bottom: 20px;
+    left: 20px;
 }
 
